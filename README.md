@@ -2,6 +2,8 @@
 
 This repository contains tools to assist in detecting and mitigating the **Shai-Hulud 2.0** npm supply chain attack (November 2025). It provides a utility to convert between different vulnerability list formats (TXT and CSV) to ensure compatibility with various scanning tools, such as `shai-hulud-2-check`.
 
+[Created with Gemini 3.0](https://gemini.google.com/share/87776a5add7a)
+
 ## 🚨 About Shai-Hulud 2.0
 
 **Date:** November 2025  
