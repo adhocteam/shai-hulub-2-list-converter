@@ -60,3 +60,37 @@ Useful if you have a simple list (e.g., from a blog post) and need to use it wit
 ```text
 package-name@1.0.0
 @scope/package@2.1.0
+```
+
+**Command**
+```sh
+python vuln_converter.py compromised-packages.txt compromised-packages.csv
+```
+
+***Output Format (CSV)***
+```
+package,version
+package-name,1.0.0
+@scope/package,2.1.0
+```
+
+### 2. Convert CSV to TXT
+Useful if you want a simple list for grep/search operations.
+
+**Command:**
+
+```Bash
+python vuln_converter.py source_list.csv output_list.txt -to-txt
+```
+
+### 3. Running Tests
+To ensure the converter is working correctly on your machine:
+
+```Bash
+python test_conversion.py
+```
+
+References
+* (DataDog Indicators of Compromise (CSV))[https://raw.githubusercontent.com/DataDog/indicators-of-compromise/refs/heads/main/shai-hulud-2.0/shai-hulud-2.0.csv]
+* (Cobenian Compromised Packages (TXT))[https://github.com/Cobenian/shai-hulud-detect/blob/main/compromised-packages.txt]
+* (Shai-Hulud 2 Check Tool)[https://github.com/opctim/shai-hulud-2-check/tree/main]
