@@ -91,6 +91,6 @@ python test_conversion.py
 ```
 
 References
-* (DataDog Indicators of Compromise (CSV))[https://raw.githubusercontent.com/DataDog/indicators-of-compromise/refs/heads/main/shai-hulud-2.0/shai-hulud-2.0.csv]
-* (Cobenian Compromised Packages (TXT))[https://github.com/Cobenian/shai-hulud-detect/blob/main/compromised-packages.txt]
-* (Shai-Hulud 2 Check Tool)[https://github.com/opctim/shai-hulud-2-check/tree/main]
+* [DataDog Indicators of Compromise (CSV)](https://raw.githubusercontent.com/DataDog/indicators-of-compromise/refs/heads/main/shai-hulud-2.0/shai-hulud-2.0.csv)
+* [Cobenian Compromised Packages (TXT)](https://github.com/Cobenian/shai-hulud-detect/blob/main/compromised-packages.txt)
+* [Shai-Hulud 2 Check Tool](https://github.com/opctim/shai-hulud-2-check/tree/main)
